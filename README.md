@@ -15,9 +15,7 @@ This Project is all about ingesting multiple tables from SQL SERVER to BIGQUERY 
 <img src = "https://github.com/sandy0298/Aviation_real_time_streaming/blob/main/images/report1.jpg" width="800" height="600" alt="report1"/> &emsp;
 <img src ="https://github.com/sandy0298/Aviation_real_time_streaming/blob/main/images/report2.jpg" width="800" height="600" alt="report2"/> &emsp;
 
-## Link to Dashboard
 
-https://lookerstudio.google.com/s/nB_GDX1CYq8
 
 ## Architecture Diagram
 
@@ -26,17 +24,17 @@ https://lookerstudio.google.com/s/nB_GDX1CYq8
 ### Code structure
 ```
 ├── Home Directory
-|     ├── pubsub_aviation.py
-|     ├── Datastreaming_ingestion.py
-
+|     ├── SQL_Server_Dataflow
+|     |     ├── sql_server_dataflow_job.py
+├──Setup.py
  
 ```
+
 ## Installation Steps and deployment process
 <b>1.</b>For running Dataflow We need to install Java Jdk 8 on the master node. For that we are making use of GCS Bucket to hold the JDk 8 Package and installing the dependency at run time on the master Node.<br>
-<b>2.</b>first we need to run our Dataflow Pipeline script i.e datastreaming.py which will build the streaming pipeline for data ingestion activity to bigquery with a fixed window session of 50 seconds i.e data from the pubsub will be pulled to dataflow and will be ingested to bigquery in realtime. <br>
-<b>3.</b> Then we need to run the pubsub_aviation.py script as it will publish the json Paylod from aviation API to the Pub/Sub topic. we have defined a sleep timer of 10 seconds in the code.<br>
-<b>4.</b>For security purpose we are making use of Gcp Secret Manager to hold the Aviation Access API and are fetching them at run time.<br>
-<b>5.</b>We are holding the Schema of Big Query Tables in our dataflow pipeline code.<br>
-<b>6.</b> Data from Bigquery is ingested to looker studio and insights are generated with some KPIs. <br>
+<b>2.</b>We are making use of <b> Setup.py </b> file to pass on the list of all the dependency that needs to be installed at run time on the worker nodes.
+A better production approach could be to make a custom container having all the required dependency installed and will be provided to the dataflow job at run time which will increases the job efficiency as need to install dependency seprately on each worker node during up scalling will vanquish. <br>
+<b>3.</b>we are using GMAIL API to send email notification through airflow.<br>
+
 
 
