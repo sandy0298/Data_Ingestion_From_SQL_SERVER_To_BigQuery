@@ -8,6 +8,7 @@ This Project is all about ingesting multiple tables from SQL SERVER to BIGQUERY 
 <img src ="https://cxl.com/wp-content/uploads/2019/10/google-bigquery-logo-1.png" width="170" height="100" alt="Google Big Query"/> &emsp;
 <img src ="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" width="170" height="100" alt="Python"/> &emsp;
 <img src = "https://th.bing.com/th/id/OIP.0XChTiQy-sBUWPSLVMsy9AHaEo?pid=ImgDet&rs=1" width="170" height="100" alt="cloud composer"/> &emsp;
+<img src = "https://e7.pngegg.com/pngimages/170/924/png-clipart-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo.png",width="170" height="100" alt="sql server"/> &emsp;
 
 ## Dashboard
 
