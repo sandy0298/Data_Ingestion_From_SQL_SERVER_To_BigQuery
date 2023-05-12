@@ -34,7 +34,7 @@ This Project is all about ingesting multiple tables from SQL SERVER to BIGQUERY 
 <b>1.</b>For running Dataflow We need to install Java Jdk 8 on the master node. For that we are making use of GCS Bucket to hold the JDk 8 Package and installing the dependency at run time on the master Node.<br>
 <b>2.</b>We are making use of <b> Setup.py </b> file to pass on the list of all the dependency that needs to be installed at run time on the worker nodes.
 A better production approach could be to make a custom container having all the required dependency installed and will be provided to the dataflow job at run time which will increases the job efficiency as need to install dependency seprately on each worker node during up scalling will vanquish. <br>
-<b>3.</b>we are using GMAIL API to send email notification through airflow.<br>
+<b>3.</b>we are using GMAIL API to send email notification through composer and the orchestration is done through composer.<br>
 
 
 
