@@ -11,16 +11,9 @@ This Project is all about ingesting multiple tables from SQL SERVER to BIGQUERY 
 <img src = "https://th.bing.com/th/id/OIP.0XChTiQy-sBUWPSLVMsy9AHaEo?pid=ImgDet&rs=1" width="170" height="100" alt="cloud composer"/> &emsp;
 <img src = "https://e7.pngegg.com/pngimages/170/924/png-clipart-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo.png" width="170" height="100" alt="sql server"/> &emsp;
 
-## Dashboard
-
-<img src = "https://github.com/sandy0298/Aviation_real_time_streaming/blob/main/images/report1.jpg" width="800" height="600" alt="report1"/> &emsp;
-<img src ="https://github.com/sandy0298/Aviation_real_time_streaming/blob/main/images/report2.jpg" width="800" height="600" alt="report2"/> &emsp;
-
-
-
 ## Architecture Diagram
 
-<img src ="https://github.com/sandy0298/Aviation_real_time_streaming/blob/main/aviation_data_final.png" width="800" height="600" alt="architecture"/> &emsp;
+<img src ="https://github.com/sandy0298/Data_Ingestion_From_SQL_SERVER_To_BigQuery/blob/6ca1f29972d584f5b1fde6d92f39b1324ebd3c22/sql_server.png" width="800" height="600" alt="architecture"/> &emsp;
 
 ### Code structure
 ```
