@@ -7,6 +7,7 @@ This Project is all about ingesting multiple tables from SQL SERVER to BIGQUERY 
 <img src="https://miro.medium.com/max/600/1*HEzofakm1-c4c_Qn4zjmnQ.jpeg" width ="170" height="75" alt="Apache Beam"/>&emsp;
 <img src ="https://cxl.com/wp-content/uploads/2019/10/google-bigquery-logo-1.png" width="170" height="100" alt="Google Big Query"/> &emsp;
 <img src ="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" width="170" height="100" alt="Python"/> &emsp;
+<img src = "https://www.bing.com/images/search?view=detailV2&ccid=0XChTiQy&id=6DFAAA1DB659D9510926E371C07536BDA99D7E4A&thid=OIP.0XChTiQy-sBUWPSLVMsy9AHaEo&mediaurl=https%3a%2f%2fcloudzone.io%2fwp-content%2fuploads%2f2021%2f06%2fgoogle-cloud-composer.jpeg&exph=500&expw=800&q=cloud+composer+logo&simid=608014563256650369&FORM=IRPRST&ck=65A081F6CC521CCFFA710EE79D7FA5CF&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0" width="170" height="100" alt="cloud composer"/> &emsp;
 
 ## Dashboard
 
