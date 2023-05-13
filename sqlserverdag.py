@@ -20,7 +20,7 @@ with models.DAG(
 
     dataflow_bash = bash_operator.BashOperator(
         task_id='sql_dataflow_job',
-        bash_command='python3 /home/gcpdev3/airflow_project/dags/sqlairflow.py --runner DataflowRunner --project sandy-385007  --region us-central1 --job_name sqljobrunv1 --temp_location  gs://personal_poc/tem  --dfBucket "personal_poc" --service_account_email sqlserver@sandy-385007.iam.gserviceaccount.com --tables {0} --setup_file /home/gcpdev3/airflow_project/dags/setup.py --connDetail  "dbadmin~|*1234~|*34.93.10.56~|*1433~|*sandy"'.format(table_list)
+        bash_command='python3 /home/gcpdev3/airflow_project/dags/sqlairflow.py --runner DataflowRunner --project myproject  --region us-central1 --job_name sqljobrunv1 --temp_location  gs://personal_poc/tem  --dfBucket "personal_poc" --service_account_email myproject.iam.gserviceaccount.com --tables {0} --setup_file /home/gcpdev3/airflow_project/dags/setup.py --connDetail  "dbadmin~|*1234~|*sql_server_ip_address~|*1433~|*sandy"'.format(table_list)
 
     )
 
