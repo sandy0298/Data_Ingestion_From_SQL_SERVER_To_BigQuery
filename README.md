@@ -19,7 +19,7 @@ This Project is all about ingesting multiple tables from SQL SERVER to BIGQUERY 
 ```
 ├── Home Directory
 |     ├── SQL_Server_Dataflow
-|     |     ├── sql_server_dataflow_job.py
+|     |     ├── sqlairflow.py
 ├──Setup.py
  
 ```
