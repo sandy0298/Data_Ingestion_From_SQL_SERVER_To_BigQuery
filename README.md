@@ -29,7 +29,7 @@ This Project is all about ingesting multiple tables from SQL SERVER to BIGQUERY 
 <b>2.</b>We are making use of <b> Setup.py </b> file to pass on the list of all the dependency that needs to be installed at run time on the worker nodes.
 A better production approach could be to make a custom container having all the required dependency installed and will be provided to the dataflow job at run time which will increases the job efficiency as need to install dependency seprately on each worker node during up scalling will vanquish. <br>
 <b>3.</b>we are using GMAIL API to send email notification through composer and the orchestration is done through composer.<br>
-<B>3.</b> The Sql Server tables are stored as Variables in AIrflow UI and are fetched from there.<br>
+<B>3.</b> The Sql Server tables are stored as Variables in AIrflow UI <img src="https://github.com/sandy0298/Data_Ingestion_From_SQL_SERVER_To_BigQuery/blob/193250cafba79eb2b5a85aaf87e192c09948537b/airflow_variable.PNG" width="800" height="600" alt="ariflow variable"/> &emsp; and are fetched from there.<br>
 
 
 
