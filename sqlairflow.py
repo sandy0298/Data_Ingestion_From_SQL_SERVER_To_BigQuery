@@ -58,9 +58,9 @@ class readandwrite(beam.DoFn):
 
             df = pd.DataFrame(sql_query,index=None)
             client = bigquery.Client()
-            table_name=['BTCH_STG_MEMBER_REGISTER','BTCH_STG_RSA_MEMBER_ACCOUNT']
+            table_name=['BTCH_STG_TEACHER_REGISTER','BTCH_STG_STUDENT_ACCOUNT']
             for j in table_name:
-                table_id="sandy-385007.sqlserver"+".{0}".format(j)
+                table_id="myproject.sqlserver"+".{0}".format(j)
                 job_config = bigquery.LoadJobConfig(
                     autodetect=True,
                     write_disposition="WRITE_TRUNCATE",
